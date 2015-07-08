@@ -19,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"haha");
+    NSLog(@"这是 test 分支");
     CLUploadViewController *setView = [[CLUploadViewController alloc] initWithNibName:@"CLUploadViewController" bundle:nil];
     [window addSubview:setView.view];
     // Override point for customization after application launch.
